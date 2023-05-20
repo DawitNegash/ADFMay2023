@@ -1,6 +1,7 @@
 {
 	"name": "PL_SQL_CopyOrdersIncrementally",
 	"properties": {
+		"description": "This Pipeline is meant to copy orders incrementally",
 		"activities": [
 			{
 				"name": "LKP_OldWaterMarkValue",
