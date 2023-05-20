@@ -1,0 +1,9 @@
+{
+	"name": "demobitsmay2023",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a5cde4a9-7c17-4687-bcab-b472e7dfcac2",
+		"tenantId": "e7906d66-13b6-4b40-a958-1404d344c898"
+	}
+}

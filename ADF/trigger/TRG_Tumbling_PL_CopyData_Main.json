@@ -1,0 +1,25 @@
+{
+	"name": "TRG_Tumbling_PL_CopyData_Main",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_CopyData_Main",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2023-05-13T17:18:00Z",
+				"endTime": "2023-05-14T17:18:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
